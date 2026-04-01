@@ -26,8 +26,8 @@ LOGGER = logging.getLogger(__name__)
 
 GAMMA_API_BASE = "https://gamma-api.polymarket.com"
 DATA_API_BASE = "https://data-api.polymarket.com"
-POLYMARKET_PROFILE_URL = "https://polymarket.com/@nurly1"
-POLYMARKET_PROFILE_USERNAME = os.getenv("POLYMARKET_PROFILE_USERNAME", "nurly1")
+POLYMARKET_PROFILE_URL = "https://polymarket.com/@swisstony"
+POLYMARKET_PROFILE_USERNAME = os.getenv("POLYMARKET_PROFILE_USERNAME", "swisstony")
 
 # Значение по умолчанию можно переопределить через POLYMARKET_PROFILE_ADDRESS.
 # Если переменная не задана, бот попробует получить адрес через public-search.
